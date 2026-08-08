@@ -1,5 +1,8 @@
 const nextConfig = {
+  output: "export",
+  basePath: "/artisan",
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -9,4 +12,6 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
+
+// export default nextConfig;
