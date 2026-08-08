@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Artisan Studio",
+  title: "Artisan",
   description: "Premium Wedding Films & Photography",
 };
 
